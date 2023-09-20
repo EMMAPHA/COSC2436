@@ -1,0 +1,21 @@
+Insert Tail Elephant
+Insert Head sunshine
+Remove 3
+Insert 1 Bicycle
+Insert Head Nothing
+Remove 5
+Print [4]
+Remove Tail
+Insert 0 Enchantment
+Print [Tail]
+Print [2]
+Remove Head
+Insert 1 Whimsical
+Remove 4
+Insert 3 Galaxy
+Print [Tail]
+Insert 0 Meadow
+Remove Head
+Print [5]
+Remove 2
+Print [2]

@@ -1,0 +1,5 @@
+Insert 0 Hello
+Insert 0 Hi
+Remove Head
+Print [Tail]
+Print [Head]

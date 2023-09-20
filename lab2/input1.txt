@@ -1,0 +1,7 @@
+Insert Head Print
+Insert Tail hello
+Print [Head]
+Insert Tail world
+Remove 2
+Remove 2
+Print [Tail]

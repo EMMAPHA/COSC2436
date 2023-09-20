@@ -1,0 +1,18 @@
+Insert Head LoveStory
+Insert Tail BlankSpace
+Insert Head ShakeItOff
+Insert Tail YouBelongWithMe
+Insert Head AllTooWell
+Insert Tail Red
+Insert Head WildestDreams
+Insert Tail Delicate
+Insert Head Style
+Insert Tail Lover
+Remove Head
+Remove Tail
+Remove Head
+Remove Tail
+Print [2]
+Print [3]
+Print [1]
+Print [Head]
