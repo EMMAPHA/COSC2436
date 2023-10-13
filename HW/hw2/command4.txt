@@ -1,0 +1,3 @@
+Add (0) [name: Jake; age: 39; deposit: 5000; number of drinks: 3]
+Add (2) [name: Hanna; age: 41; deposit: 1700; number of drinks: 6]
+Add (17) [name: Tom; age: 66; deposit: 4000; number of drinks: 3]

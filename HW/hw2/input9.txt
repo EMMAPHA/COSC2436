@@ -1,0 +1,5 @@
+[name: Jake; age: 39; deposit: 5000; number of drinks: 3]
+[name: Rob; age: 34; deposit: 1234; number of drinks: 1]
+[name: Hanna; age: 41; deposit: 1700; number of drinks: 6]
+[name: Sofia; age: 54; deposit: 1000; number of drinks: 6]
+[name: Kate; age: 27; deposit: 2222; number of drinks: 2]

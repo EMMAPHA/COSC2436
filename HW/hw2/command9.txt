@@ -1,0 +1,9 @@
+Sort (name)
+Add (0) [name: Ali; age: 23; deposit: 2345; number of drinks: 7]
+Sort (deposit)
+Add (0) [name: Kate; age: 21; deposit: 3456; number of drinks: 7]
+Remove (number of drinks: 7)
+Remove (number of drinks: 6)
+Remove (number of drinks: 1)
+Remove (number of drinks: 2)
+Remove (number of drinks: 3)

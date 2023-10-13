@@ -1,0 +1,12 @@
+(4)
+close the door (2)
+open the door (4)
+unlock the door (5)
+open the door
+close the door (10)
+lock the door (9)
+lock the door (3)
+open the door (1)
+unlock the door (6)
+open the door (8)
+close the door (7)

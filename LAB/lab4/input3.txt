@@ -1,0 +1,18 @@
+open the door (12)
+unlock the door (5)
+unlock the door (6)
+close the door (18)
+lock the door (17)
+open the door (10)
+open the door (11)
+close the door (22)
+lock the door (15)
+unlock the door (25)
+open the door (55)
+open the door
+close the door
+(55)
+(22)
+lock the door (72)
+unlock the door (88)
+close the door (90)
