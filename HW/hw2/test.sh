@@ -26,7 +26,7 @@ for casenum in `seq 1 1 3`; do
 done
 
 # Run the code
-for casenum in `seq 1 1 9`; do
+for casenum in `seq 1 1 3`; do
 	./${cmd} "input=input${casenum}.txt;command=command${casenum}.txt;output=output${casenum}.txt" 1>${casenum}.stdcout 2>${casenum}.stderr
 # compare output1.txt with ans1.txt, output the difference to 1.diff
 	diff -iBwu ans${casenum}.txt output${casenum}.txt > ${casenum}.diff
