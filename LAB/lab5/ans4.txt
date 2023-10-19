@@ -1,0 +1,6 @@
+history: 3
+math: 2
+music: 2
+reading: 2
+science: 3
+writing: 3

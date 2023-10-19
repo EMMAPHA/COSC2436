@@ -1,0 +1,8 @@
+Apple: 2
+Banana: 2
+Grape: 1
+Kiwi: 1
+Lemon: 1
+Mango: 1
+Orange: 1
+Pineapple: 1

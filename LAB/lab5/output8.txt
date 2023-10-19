@@ -1,0 +1,10 @@
+Beer: 1
+Coffee: 2
+Juice: 2
+Lemonade: 1
+Milk: 1
+Smoothie: 1
+Soda: 1
+Tea: 2
+Water: 2
+Wine: 1

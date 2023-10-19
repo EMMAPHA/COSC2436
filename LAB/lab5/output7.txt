@@ -1,0 +1,9 @@
+Black: 1
+Blue: 4
+Brown: 3
+Green: 4
+Orange: 3
+Pink: 3
+Purple: 2
+Red: 4
+Yellow: 4
