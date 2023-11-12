@@ -1,0 +1,16 @@
+Remove
+10
+Insert
+5 15 20 0 5 19
+Remove
+15 5
+Traverse
+0 19 20
+Traverse
+19 0 20
+Traverse
+0 20 19
+Insert
+0 20 19
+Traverse
+0 20 19

@@ -1,0 +1,10 @@
+Remove
+1
+Insert
+1
+Traverse
+1
+Remove
+1
+Traverse
+1

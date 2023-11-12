@@ -1,0 +1,8 @@
+Insert
+-2 0 2
+Traverse
+-2 0 2
+Remove
+-2
+Traverse
+2 0

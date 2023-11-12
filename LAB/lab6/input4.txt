@@ -1,0 +1,8 @@
+Insert
+20 14 16 10 15
+Remove
+14
+Traverse
+15 10 25 30 20
+Traverse
+21 22 26

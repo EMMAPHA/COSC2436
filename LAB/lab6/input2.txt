@@ -1,0 +1,6 @@
+Insert
+12
+Remove
+12
+Traverse
+12

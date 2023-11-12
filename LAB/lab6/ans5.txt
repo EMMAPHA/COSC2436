@@ -1,0 +1,4 @@
+Inorder
+Preorder
+Postorder
+False
