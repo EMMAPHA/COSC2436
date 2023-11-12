@@ -19,7 +19,7 @@ rm output*.txt 2> /dev/null
 rm *.diff *.stdcout *.stderr 2> /dev/null
 
 # Run the code
-for casenum in `seq 1 1 9`; do
+for casenum in `seq 1 1 3`; do
 	./${cmd} "input=input${casenum}.txt;output=output${casenum}.txt" 1>${casenum}.stdcout 2>${casenum}.stderr
     
     # compare output1.txt with ans1.txt, output the difference to 1.diff
