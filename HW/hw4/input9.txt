@@ -1,0 +1,3 @@
+3
+Quadratic probing
+3,6,7

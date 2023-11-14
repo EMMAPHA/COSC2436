@@ -1,0 +1,3 @@
+3
+Linear probing
+5,15,25
