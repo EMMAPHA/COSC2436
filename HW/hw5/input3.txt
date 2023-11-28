@@ -1,0 +1,7 @@
+Insert(10)
+Insert(5)
+Insert(15)
+Insert(3)
+Insert(7)
+Insert(13)
+Insert(17)

@@ -1,0 +1,4 @@
+Insert(10)
+Insert(5)
+Insert(10)
+Insert(15)
