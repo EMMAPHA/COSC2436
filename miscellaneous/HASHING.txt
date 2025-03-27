@@ -1,0 +1,21 @@
+Direct Hashing:
+
+Explanation: Direct hashing, also known as direct addressing, involves using the keys themselves as indices to access elements in an array. Each unique key directly corresponds to a unique location in the array.
+Use Case: Direct hashing is suitable when the key space is relatively small and the keys are integers or can be mapped directly to integers.
+Linear Probing:
+
+Explanation: Linear probing is a collision resolution technique where, if a collision occurs (i.e., two keys map to the same location), you simply move linearly through the array until you find an empty slot.
+Use Case: Linear probing is simple and works well when the load factor (ratio of stored elements to array size) is low, but it can suffer from clustering when the load factor is high.
+Quadratic Probing:
+
+Explanation: Quadratic probing is another collision resolution technique that addresses clustering issues by probing with a quadratic function instead of a linear one. If a collision occurs at position i, the next probe is at position i + 1, then i + 4, i + 9, and so on.
+Use Case: Quadratic probing is generally better at avoiding clustering than linear probing but may still suffer from problems at high load factors.
+Double Hashing:
+
+Explanation: Double hashing is a collision resolution method that involves using a second hash function to calculate the step size for probing. It reduces clustering by allowing a more dynamic exploration of the hash table.
+Use Case: Double hashing is effective at reducing clustering and is a good choice when you have a good secondary hash function.
+Open Chaining (Separate Chaining):
+
+Explanation: Open chaining involves creating a linked list (or another data structure like a vector) at each array location to store multiple items that hash to the same location. Collisions are resolved by appending elements to these lists.
+Use Case: Open chaining is useful when you expect a high number of collisions or when you want a simple way to handle them. It can be memory-efficient when the number of collisions is limited.
+Each of these hashing techniques has its advantages and disadvantages, and the choice of which to use depends on the specific requirements and characteristics of your application, including the expected data distribution and the desired trade-offs between time and space complexity.
