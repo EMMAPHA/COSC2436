@@ -1,0 +1,30 @@
+Insert 0 E      List: E
+Insert 1 G      Invalid pos: only index 0 exists
+Insert 1 F      Invalid pos: only index 0 exists
+Insert 2 I      Invalid pos: only index 0 exists
+Insert 3 H      Invalid pos: only index 0 exists
+Insert 0 A      List: A E
+Insert 1 C      List: A C E
+Insert 2 D      List: A C D E
+Insert 1 B      List: A B C D E
+Insert Tail F   List: A B C D E F
+
+Print [0]       Print A
+Print [1]       Print B
+Print [2]       Print C
+Print [3]       Print D
+Print [4]       Print E
+Print [5]       Print F
+Print [6]
+Print [7]
+Print [8]
+Print [Head]    Print A
+Print [Tail]    Print F
+
+Remove 6        Invalid pos: only index 0-5 exists for the list
+Print [Tail]    Print F
+Remove 5        VALID pos: remove node at index 5 --> List: A B C D E
+Print [Tail]    Print E
+Remove Head     VALID pos: remove node at HEAD --> List: B C D E
+Print [Head]    Print B
+Print [0]       Print B

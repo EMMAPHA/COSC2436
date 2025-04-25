@@ -1,0 +1,30 @@
+Insert 0 E
+Insert 1 G
+Insert 1 F
+Insert 2 I
+Insert 3 H
+Insert 0 A
+Insert 1 C
+Insert 2 D
+Insert 1 B
+Insert Tail F
+
+Print [0]
+Print [1]
+Print [2]
+Print [3]
+Print [4]
+Print [5]
+Print [6]
+Print [7]
+Print [8]
+Print [Head]
+Print [Tail]
+
+Remove 6
+Print [Tail]
+Remove 5
+Print [Tail]
+Remove Head
+Print [Head]
+Print [0]

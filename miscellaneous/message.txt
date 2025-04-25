@@ -1,0 +1,205 @@
+#ifndef linkedlist_h
+#define linkedlist_h
+
+#include <iostream>
+using namespace std; 
+//create one node in linkedlist
+struct node{
+ string word;
+node* next = nullptr;
+
+};
+
+class linkedlist{
+  private:
+    node* head;
+    int size;
+  public:
+
+  linkedlist(){
+    head=nullptr; 
+    size = 0;
+  }
+
+//all the methods
+    void insertAtHead(string w){//add to head. think of a bookshelf and you shove the books to the right
+      node* temp = new node;
+      temp->word = w; //data 
+      temp->next = nullptr;
+
+      temp->next = head;
+      head = temp;
+
+      size++;
+      
+    } 
+    void insertAtTail(string word){
+        if(!getSize()){
+            insertAtHead(word);
+        }
+        else{
+            node* newNode = new node;
+            newNode->next = nullptr;
+            newNode->word = word;
+            node* current = head;
+            
+
+            while(current->next != nullptr){ //stop at last node
+                current = current->next;
+            }
+
+            current->next = newNode;
+            size++;
+        }
+
+
+    }
+    void insertAtPos(string word, int pos){
+          if(pos >= getSize() && pos != 0 || pos < 0){
+             return;
+          }
+          if(pos==0){
+            insertAtHead(word);
+          }
+          else if(pos==getSize()-1){
+            insertAtTail(word);
+          }
+          else{
+            node* newNode = new node;
+            newNode->next = nullptr;            
+            newNode->word = word;
+            node* current = head;
+            //gets right before the position
+            for(int i = 0 ; i < pos - 1 ; i++){ //if(pos>=0 && pos <= getSize()-1)
+                current=current->next;
+            }
+
+            newNode->next = current->next;
+            current->next = newNode;
+            size++;
+          }     
+
+    }
+
+    void removeAtHead(){
+        if(getSize() > 0){
+    //data type   //pointer variable
+            
+            node* oldHead = head;
+            head = head->next;
+            delete oldHead;
+            size--;
+        }
+    }
+void removeAtTail() {
+    if (getSize() > 0) { // Check if the list is not empty
+        if (head->next == nullptr) {
+            delete head;
+            head = nullptr;
+            size--;
+        } else {
+            node* curr = head;
+            node* prev = nullptr;
+
+            while (curr->next != nullptr) {
+                prev = curr;
+                curr = curr->next;
+            }
+
+            delete curr;
+            if (prev != nullptr) {
+                prev->next = nullptr;
+            } else {
+                head = nullptr;
+            }
+            size--;
+        }
+    }
+}
+    void removeAtPos(int pos){
+          if(pos >= getSize() && pos !=0|| pos < 0){
+              return;
+          }
+        if(!getSize()){
+            return;
+          } 
+
+    if (getSize() > 0) { // Check if the list is not empty
+        if (pos == 0) {
+            removeAtHead();
+        } else if (pos == getSize() - 1) {
+            removeAtTail();
+        }
+          
+          else{
+            /* node* newNode = new node;
+            newNode->next = nullptr;
+            newNode->word = word; */
+            node* current = head;
+            //gets right before the position
+            for(int i = 0 ; i < pos - 1 ; i++){ //if(pos>=0 && pos <= getSize()-1)
+                current=current->next;
+            }
+
+            //newNode->next
+            node* temp = current->next;
+            current->next = temp->next;
+            delete temp;
+            size--;
+          }     
+      }
+    }
+void printHead(ofstream &output){
+    if(head != nullptr){
+        output << head->word << endl;
+    }
+
+}
+void printTail(ofstream &output){
+
+    if(head == nullptr){
+        return;
+    }
+    node* current = head; //have to start from somewhere which is the head
+
+    while(current->next != nullptr){ //stop at last node
+        current = current->next;
+    }
+if(current == nullptr){
+        return;
+    } 
+
+    output << current->word << endl;
+
+}
+
+void printAtPos(ofstream &output, int pos) {
+      node* current = head;
+    //gets right before the position
+    for(int i = 0 ; i < pos ; i++){ //if(pos>=0 && pos <= getSize()-1)
+            current=current->next;
+        }
+
+    if(current == nullptr){
+        return;
+    }
+
+  output << current->word << endl;
+}
+
+//node is storing the word(data and link/reference)
+int getSize(){
+    return size;
+}
+
+/* void display(){
+    node* current = head;
+    while(current != nullptr){
+        cout << current->word << " ";
+        current = current->next;
+    }
+    } */
+};
+
+
+#endif 
